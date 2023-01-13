@@ -1,0 +1,29 @@
+
+.deleteArea {
+    width: 100vw; height: 100vh;
+    background-color: blue;
+    display: flex; justify-content: center; align-items: center;
+}
+
+.deleteConfirmation {
+    background-color: white;
+    height: 150px; width: 300px;
+    display: flex; justify-content: center; align-items: center; flex-direction: column;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px black;
+}
+
+.yesOrNot {
+    display: flex;
+}
+.yesOrNot div {
+    margin: 10px;
+    height: 30px; width: 70px;
+    display: flex; justify-content: center; align-items: center;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px black;
+    cursor: pointer;
+}
+.yesOrNot div:hover {
+    background-color: rgb(173, 173, 173);
+}

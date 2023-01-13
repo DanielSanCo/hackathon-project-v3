@@ -1,0 +1,201 @@
+.pageDois {
+    min-height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 2;
+    background: linear-gradient(blue, black, black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.pageDois .listProject {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pageDois .projectArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.inputArea {
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-bottom: 1px solid white;
+}
+
+.inputArea input {
+    margin: 10px 0px 10px 10px;
+    height: 30px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.divInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divInput div {
+    background-color: white;
+    box-shadow: 1px 1px 5px black;
+    height: 32px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
+.divInput div:hover {
+    background-color: aquamarine;
+}
+
+.divInput div img {
+    width: 20px;
+}
+
+.listProject {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageDois .eachProject {
+    background: linear-gradient(blue, black);
+    box-shadow: 1px 1px 5px rgb(32, 32, 167);
+    height: 300px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+    color: white;
+}
+
+.pageDois .eachProject .logoProjeto img {
+    width: 50px;
+}
+
+.pageDois .eachProject .imgProjeto {
+    height: 130px;
+    width: 90%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.pageDois .eachProject a {
+    height: 25px;
+    margin-top: -10px;
+    width: 100px;
+    background-color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 5px;
+}
+
+
+.cadastrarProjeto {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.closeForm {
+    position: absolute;
+    width: 10%;
+    display: flex;
+    margin-top: -380px;
+    margin-left: 250px;
+    justify-content: right;
+    z-index: 7;
+}
+
+.closeForm div {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.closeForm div:hover {
+    background-color: black;
+}
+
+.divInput button {
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: red;
+    height: 100px;
+}
+
+.putDelete {
+    display: flex;
+}
+.putDelete div {
+    font-size: 12px;
+    margin: 10px;
+    width: 70px; height: 20px;
+    display: flex; justify-content: center; align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.putDeleteDiv {
+    background-color: rgb(222, 89, 255) !important;
+}
+.putDeleteDiv2 {
+    background-color: rgb(255, 89, 89) !important;
+}
+.putDelete div:nth-child(1) {
+    background-color: purple;
+}
+.putDelete .putDeleteDiv:hover {
+    background-color: rgb(78, 0, 78) !important;
+}
+.putDelete div:nth-child(2) {
+    background-color: rgb(255, 49, 49);
+}
+.putDelete div:nth-child(2) a:hover {
+    background-color: rgb(255, 20, 20) !important;
+}

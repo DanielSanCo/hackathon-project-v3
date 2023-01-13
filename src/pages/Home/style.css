@@ -1,0 +1,84 @@
+.container {
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 0;
+}
+
+.container .backHome {
+  min-height: 120vh;
+  width: 100vw;
+
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+
+.home {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 1;
+  display: flex;
+}
+
+.siteTitulo {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  z-index: 1;
+}
+
+.siteTitulo div h1 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 0;
+  text-shadow: 1px 1px 5px black;
+}
+.siteTitulo div h3 {
+  color: white;
+  margin-top: 0;
+  font-size: 20px;
+  text-shadow: 1px 1px 5px black;
+}
+.siteTitulo div button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  font-weight: bold;
+  margin: 10px;
+  cursor: pointer;
+  transition: all ease-in .1s;
+  box-shadow: 1px 1px 5px black;
+}
+.siteTitulo div button:hover {
+  background-color: rgb(151, 151, 255);
+}
+
+.rightSide {
+  flex: 1;
+}
+
+.buttonsArea {
+  display: flex;
+}
+/* PAGE DOIS */
+
+
+/* FOOTER */
+
+.footer {
+  background-color: red;
+  height: 100px;
+}
